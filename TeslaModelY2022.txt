@@ -1,0 +1,12 @@
+Make: Tesla
+Model: Model Y Performance
+Year: 2022
+Type: Wagon
+Tier: Normal /0, Full Self-Driving Capability /12000
+Retail Price: 62190
+Color: Pearl White Multi-Coat /0, Deep Blue Metallic /1000, Solid Black /1500, Red Multi-Coat /2000
+Wheels: 21’’ Überturbine Wheels
+Tow Hitch: Class II steel tow bar /1000
+Interior: All Black /0, Black and White /1000
+Trim: Silver Matte Trim, Brushed Aluminum trim, Fineline Anthracite Wood Trim,
+Burl Walnut Wood Trim
