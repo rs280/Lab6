@@ -62,7 +62,7 @@ public class CarConfiguration extends HttpServlet implements client.SocketClient
 			errorMessageBuffer
 				.append("Could not display automobile configuration because no automobile key was given.<BR>");
 			errorMessageBuffer.append("Please go back to the automobile selection and try again: <BR>");
-			errorMessageBuffer.append("<a href=\"/KBB/servlet/servlets.CarSelection\">Automobile selection</a>");
+			errorMessageBuffer.append("<a href=\"/Lab6/servlet/servlets.CarSelection\">Automobile selection</a>");
 			errorFlag = true;
 		} else {
 			// decodes url parameter data
@@ -130,7 +130,7 @@ public class CarConfiguration extends HttpServlet implements client.SocketClient
 			out.println("<p style=\"color: red\">" + errorMessageBuffer.toString() + "</p>");
 		} else {
 			// form start
-			out.println("<form method=\"get\" action=\"/KBB/jsp/CarPrice.jsp\">");
+			out.println("<form method=\"get\" action=\"/Lab6/jsp/CarPrice.jsp\">");
 			out.println("<input type=\"hidden\" name=\"automobileKey\" value=\"" + automobileKey + "\">");
 			out.println("<table>");
 			out.println("<tr><td>Year</td>");
@@ -160,7 +160,7 @@ public class CarConfiguration extends HttpServlet implements client.SocketClient
 			}
 
 			out.println("<tr><td colspan=\"2\" style=\"text-align: right\">");
-			out.println("<a href=\"/KBB/servlet/servlets.CarSelection\">back</a>");
+			out.println("<a href=\"/Lab6/servlet/servlets.CarSelection\">back</a>");
 			out.println("<input type=\"submit\" value=\"Send Request\"></td>");
 			out.println("</tr>");
 			out.println("</table></form>");

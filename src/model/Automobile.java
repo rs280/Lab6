@@ -1,9 +1,3 @@
-//============================================================================
-// Name        : Assignment 1
-// Author      : Branden Lee
-// Date        : 4/24/2018
-// Description : Automobile class for the KBB website application
-//============================================================================
 package model;
 
 import java.lang.ArrayIndexOutOfBoundsException;

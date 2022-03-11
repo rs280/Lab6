@@ -119,7 +119,7 @@ public class CarSelection extends HttpServlet implements client.SocketClientCons
 			out.println("<p style=\"color: red\">" + errorMessageBuffer.toString() + "</p>");
 		} else {
 			// form start
-			out.println("<form method=\"get\" action=\"/KBB/servlet/servlets.CarConfiguration\">");
+			out.println("<form method=\"get\" action=\"/Lab6/servlet/servlets.CarConfiguration\">");
 			out.println("<table style=\"border\">");
 			out.println("<tr><td>Year/Make/Model</td>");
 			out.println("<td>");
